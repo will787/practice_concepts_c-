@@ -1,1 +1,1 @@
-# practice_concepts_c-
+This repository representative learning skills em C#, about methods, syntax, property any factorys of language. As I learn, I will save in this repository.
