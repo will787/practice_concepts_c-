@@ -8,6 +8,15 @@ namespace c__explore_concepts.Models
 {
     public class Pessoa
     {
+        public Pessoa()
+        {
+            
+        }
+        public Pessoa(String nome, String sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
         private string _nome;
         private int _idade;
         public String Nome { 

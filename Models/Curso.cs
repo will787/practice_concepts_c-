@@ -25,9 +25,11 @@ namespace c__explore_concepts.Models
             //executa o método recebendo argumento da lista que é o aluno
         }
         public void ListarAlunos(){
-            foreach (Pessoa aluno in Alunos)
+            Console.WriteLine($"Alunos do curso de: {Nome}"); 
+            for(int count = 0; count < Alunos.Count; count++)
             {
-                Console.WriteLine($"{aluno.NomeCompleto}");            
+                string texto = "Number: " + count + " - " + Alunos[count].NomeCompleto;
+                Console.WriteLine($"{texto}");
             }
         }
     }
