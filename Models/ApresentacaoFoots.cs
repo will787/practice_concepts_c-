@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 namespace c__explore_concepts.Models
 {
     public class ApresentacaoFoots
-    {
+    {   
+        private static List<string> avaliacoesClientes = new List<string>();
         public String ClienteNome { get; set; }
         public String AcompanhanteDesejado { get; set; }
         public int ValorASerGastoDesejado { get; set; }
@@ -36,5 +37,39 @@ namespace c__explore_concepts.Models
             Console.WriteLine($"Aguarde 10 minutos ao seu Pedido");
         }
 
+        public string NotaAvaliacao(string selecaoPrato){
+            Console.WriteLine($"De sua nota para o: {selecaoPrato}");
+            
+            for(int prato = 0; prato < 4; prato++){
+                Console.WriteLine($"Avaliação: {prato + 1} ");
+            }
+            string nota = Console.ReadLine();
+            return nota;
+        }
+        public string SugestaoMelhoriaPratoFinal(string nota){
+                Console.WriteLine("O que podemos fazer para melhorar ?");
+                string aval = Console.ReadLine();
+                
+                if (aval == null)
+                {
+                    Console.WriteLine("Tenha um bom dia, obrigado pela preferência");
+                }
+                else
+                {
+                    Console.WriteLine("Obrigado pela sua hospedagem, tenha um bom dia");
+                }
+                string avalfinal = $"{nota} - {ClienteNome} Descricão : {aval}";
+                avaliacoesClientes.Add(avalfinal);
+                return avalfinal;
+        }
+
+        public static void DadosSobreAvaliacaoClientes(){
+            Console.WriteLine("Avaliação dos clientes");
+
+            foreach (var avaliacao in avaliacoesClientes)
+            {
+                Console.WriteLine(avaliacao);
+            }
+        }
     }
 }
