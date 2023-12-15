@@ -1,0 +1,15 @@
+C:\Users\vieir\c#-explore-concepts\bin\Debug\net8.0\c#-explore-concepts.exe
+C:\Users\vieir\c#-explore-concepts\bin\Debug\net8.0\c#-explore-concepts.deps.json
+C:\Users\vieir\c#-explore-concepts\bin\Debug\net8.0\c#-explore-concepts.runtimeconfig.json
+C:\Users\vieir\c#-explore-concepts\bin\Debug\net8.0\c#-explore-concepts.dll
+C:\Users\vieir\c#-explore-concepts\bin\Debug\net8.0\c#-explore-concepts.pdb
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.AssemblyInfoInputs.cache
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.AssemblyInfo.cs
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.csproj.CoreCompileInputs.cache
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.sourcelink.json
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.dll
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\refint\c#-explore-concepts.dll
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.pdb
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\c#-explore-concepts.genruntimeconfig.cache
+C:\Users\vieir\c#-explore-concepts\obj\Debug\net8.0\ref\c#-explore-concepts.dll

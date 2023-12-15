@@ -28,7 +28,8 @@ namespace c__explore_concepts.Models
             Console.WriteLine($"Alunos do curso de: {Nome}"); 
             for(int count = 0; count < Alunos.Count; count++)
             {
-                string texto = "Number: " + count + " - " + Alunos[count].NomeCompleto;
+                //string texto = "Number: " + count + " - " + Alunos[count].NomeCompleto;
+                string texto = $"Number: {count + 1} - {Alunos[count].NomeCompleto}";
                 Console.WriteLine($"{texto}");
             }
         }
